@@ -41,7 +41,7 @@ L.TileLayer.HERE = L.TileLayer.extend({
 			options.tileResolution = 512;
 		}
 
-		var tileUrl = 'https://maps.hereapi.com/v3/{resource}/mc/{z}/{x}/{y}/{format}?apiKey={apiKey}&style={style}&size={tileResolution}';
+		var tileUrl = 'https://maps.hereapi.com/v3/{resource}/mc/{z}/{x}/{y}/{format}?apiKey={apiKey}&style={style}&size={tileResolution}&ppi=400';
 		var copyrightUrl = 'https://maps.hereapi.com/v3/copyright?apiKey={apiKey}';
 
 		if (options.features) {
